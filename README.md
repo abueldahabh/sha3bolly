@@ -7,6 +7,18 @@ engineer** instead of a scientist:
 - Always gives a concrete example (real code / real request-response).
 - Draws a flowchart whenever a process has multiple chained steps.
 
+## For teammates — install in 2 commands
+
+This plugin is published as a public marketplace. In Claude Code, run:
+
+```
+/plugin marketplace add abueldahabh/sha3bolly
+/plugin install sha3bolly@sha3bolly
+```
+
+To get a newer version later, re-run the first command to refresh the
+marketplace, then reinstall.
+
 ## What's inside
 
 ```
@@ -46,9 +58,9 @@ Or add this to your `.claude/settings.json` and run `/reload-plugins`:
 }
 ```
 
-## Install (from git, after you push it)
+## Install (from git)
 
 ```
-/plugin marketplace add <your-git-url>
+/plugin marketplace add abueldahabh/sha3bolly
 /plugin install sha3bolly@sha3bolly
 ```
