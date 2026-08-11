@@ -1,0 +1,8 @@
+{
+  "name": "sha3bolly",
+  "description": "Makes Claude explain things like you're a junior engineer: plain language, real examples, and flowcharts for any multi-step process.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Habiba Abueldahab"
+  }
+}

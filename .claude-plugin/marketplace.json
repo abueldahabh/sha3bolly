@@ -1,0 +1,13 @@
+{
+  "name": "sha3bolly",
+  "owner": {
+    "name": "Habiba Abueldahab"
+  },
+  "plugins": [
+    {
+      "name": "sha3bolly",
+      "source": "./",
+      "description": "Makes Claude explain things like you're a junior engineer: plain language, real examples, and flowcharts for any multi-step process."
+    }
+  ]
+}
