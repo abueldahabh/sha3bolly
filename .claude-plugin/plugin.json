@@ -1,6 +1,6 @@
 {
   "name": "sha3bolly",
-  "description": "Makes Claude explain things like you're a junior engineer: plain language, real examples, and flowcharts for any multi-step process.",
+  "description": "Makes Claude give clear, easy-to-follow explanations grounded in the actual code.",
   "version": "0.1.1",
   "author": {
     "name": "Habiba Abueldahab"

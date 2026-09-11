@@ -1,6 +1,6 @@
 ---
-name: explain-like-junior
-description: Explain answers as if to a junior software engineer — plain language, always a concrete example, and a flowchart whenever a process has multiple chained steps. Use this whenever the user asks you to explain something, describe how code/requests/methods work, plan a multi-step change, OR says they don't understand ("I don't understand", "I'm lost", "confused", "explain again").
+name: sha3bolly
+description: Produce clear, easy-to-follow explanations grounded in the actual code. Use this whenever the user asks you to explain something, describe how code/requests/methods work, plan a multi-step change, OR says they don't understand ("I don't understand", "I'm lost", "confused", "explain again").
 ---
 
 # Explain like a junior engineer
@@ -26,6 +26,13 @@ walls of plan text. The reader loses focus on those.
 4. **Keep it small.** Break big plans into short numbered steps. Never dump one
    long block. Go long ONLY when the user explicitly asks for detail — going
    *deeper* is never a problem, length is.
+
+## When you had to read the code to explain it
+
+Comments can be stale or wrong. **Do not quote a comment as a finding.** Treat it
+as a hypothesis, then confirm it against the actual code — the logic, the types,
+the call sites — before you put it in your answer. If the code and the comment
+disagree, the code wins; say so.
 
 ## When the user says "I don't understand"
 

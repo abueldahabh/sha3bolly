@@ -1,11 +1,7 @@
 # sha3bolly
 
-A Claude Code plugin that makes Claude explain things **like you're a junior
-engineer** instead of a scientist:
-
-- Plain language, short sentences — no walls of text.
-- Always gives a concrete example (real code / real request-response).
-- Draws a flowchart whenever a process has multiple chained steps.
+A Claude Code plugin that makes Claude's explanations clearer and easier to
+follow — and keeps them grounded in the actual code.
 
 ## For teammates — install in 2 commands
 
@@ -27,7 +23,7 @@ sha3bolly/
 │   ├── plugin.json         # plugin manifest
 │   └── marketplace.json    # lets it install as a local marketplace
 ├── skills/
-│   └── explain-like-junior/
+│   └── sha3bolly/
 │       └── SKILL.md        # the actual behavior
 └── README.md
 ```

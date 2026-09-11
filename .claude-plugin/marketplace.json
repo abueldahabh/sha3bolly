@@ -7,7 +7,7 @@
     {
       "name": "sha3bolly",
       "source": "./",
-      "description": "Makes Claude explain things like you're a junior engineer: plain language, real examples, and flowcharts for any multi-step process."
+      "description": "Makes Claude give clear, easy-to-follow explanations grounded in the actual code."
     }
   ]
 }
